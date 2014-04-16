@@ -1,0 +1,35 @@
+.dash {
+    color: #333;
+    font-size: 13px;
+    font-family: "PT Sans", sans-serif;
+}
+.dash div,
+.dash ul,
+.dash button {
+    box-sizing: border-box;
+}
+.dash__content {
+    min-width: 960px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.dash__left {
+    float: left;
+    width: 80%;
+    width: calc(100% - 220px);
+}
+.dash__right {
+    float: left;
+    width: 20%;
+    width: calc(220px);
+    border-radius: 2px;
+    background-color: #efefef;
+}
+.clearfix:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}

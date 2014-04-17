@@ -59,14 +59,19 @@ a {
     vertical-align: middle;
 }
 .link {
-    color: #09c;
     cursor: pointer;
+}
+.blue-link {
+    color: #09c;
 }
 .underline-link {
     border-bottom: 1px solid;
 }
 .underline-link:hover {
     border-bottom: 1px none transparent;
+}
+.dotted-link {
+    border-bottom: 1px dotted;
 }
 .navy-selected {
     color: #999;
@@ -132,4 +137,33 @@ a {
     visibility: hidden;
     line-height: 0;
     height: 0;
+}
+.sort-opt {
+    margin-top: 20px;
+}
+.dash-display {
+    background-position: -40px -130px;
+    width: 20px;
+    height: 20px;
+}
+.dash-display:hover {
+    background-position: -20px -130px;
+}
+.selected.dash-display {
+    background-position: 0 -130px;
+}
+.list-display {
+    background-position: -40px -150px;
+    width: 20px;
+    height: 20px;
+}
+.list-display:hover {
+    background-position: -20px -150px;
+}
+.selected.list-display {
+    background-position: 0 -150px;
+}
+.display-opt {
+    float: right;
+
 }

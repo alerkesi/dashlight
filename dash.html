@@ -6,10 +6,11 @@
     <meta content="" name="description"/>
     <title></title>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <!--<script src="js/basket.js" type="text/javascript"></script>-->
+    <!--<script src="js/j.js" type="text/javascript"></script>-->
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext'
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/s.css" type="text/css">
+    <link rel="stylesheet" href="css/hint.css" type="text/css">
 </head>
 <body>
 <div class="dash">
@@ -27,19 +28,202 @@
             </div>
             <div class="dash__left">
                 <div class="title-big">Смартфоны</div>
-                <div class="sort-opt">
+                <div class="sort-opts clearfix">
                     <span>Сортировать по :</span>
-                    <a href="javascript:void(0)" class="link dotted-link">цене</a>
-                    <a href="javascript:void(0)" class="link dotted-link">новизне модели</a>
+                    <a href="javascript:void(0)" class="sort-opt link asc js-price-sort">
+                        <span class="link dotted-link">цене</span><i class="sp"></i>
+                    </a>
+                    <a href="javascript:void(0)" class="sort-opt link js-model-sort">
+                        <span class="link dotted-link">новизне модели</span><i class="sp"></i>
+                    </a>
+
                     <div class="display-opt">
-                        <span>Отображать:</span>
+                        <span style="margin-right: 5px;">Отображать:</span>
                         <a href="javascript:void(0)" class="link"><i class="sp selected dash-display"></i></a>
                         <a href="javascript:void(0)" class="link"><i class="sp list-display"></i></a>
                     </div>
                 </div>
+                <ul class="catalog list-none clearfix">
+                    <li class="catalog-item flt-l clearfix">
+                        <div class="flt-l catalog-item__left">
+                            <img class="catalog__photo" src="images/1.png" alt=""/>
+
+                            <div class="bottom-center">
+                                <div class="starbar">
+                                    <div class="starbar_w"></div>
+                                </div><br>
+                                <a href="javascript:void(0)" class="dib link underline-link blue-link">23 отзыва</a>
+                            </div>
+                        </div>
+                        <div class="flt-l catalog-item__right" style="text-align: left;">
+                            <a href="javascript:void(0)" class="catalog-item__name link underline-link blue-link">Apple iPhone 5S
+                                16GB Space Gray</a>
+
+                            <div class="bottom">
+                                <div class="product__item__art">Артикул: 674739 (с2)</div>
+                                <span class="presence presence__yes">Есть в наличии</span>
+                                <div class="new-price">29 999 &#8399;</div>
+                                <a class="button-buy">Купить</a>
+                                <br><a href="javascript:void(0)" class="dib link dotted-link" style="margin:0 0 9px;">Купить в 1 клик</a>
+                                <br><a href="javascript:void(0)" class="dib link dotted-link">В кредит за <span
+                                        class="bold">78 180 &#8399;</span> в месяц</a>
+                            </div>
+                        </div>
+                        <div class="catalog-item__addinfo">
+                            <span class="addinfo-text"><span>Беслатная доставка возможна </span><span class="italic">на завтра, 11.02.2014</span></span>
+                            <span class="addinfo-text">
+                                <span>Экспресс-доставка </span><span class="italic">сегодня, через 4 часа за 350 &#8399;</span>
+                                <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="catalog-item flt-l clearfix">
+                        <div class="flt-l catalog-item__left">
+                            <img class="catalog__photo" src="images/1.png" alt=""/>
+
+                            <div class="bottom-center">
+                                <div class="starbar">
+                                    <div class="starbar_w"></div>
+                                </div><br>
+                                <a href="javascript:void(0)" class="dib link underline-link blue-link">23 отзыва</a>
+                            </div>
+                        </div>
+                        <div class="flt-l catalog-item__right" style="text-align: left;">
+                            <a href="javascript:void(0)" class="catalog-item__name link underline-link blue-link">Apple iPhone 5S
+                                16GB Space Gray</a>
+
+                            <div class="bottom">
+                                <div class="product__item__art">Артикул: 674739 (с2)</div>
+                                <span class="presence presence__yes">Есть в наличии</span>
+                                <div class="new-price">29 999 &#8399;</div>
+                                <a class="button-buy">Купить</a>
+                                <br><a href="javascript:void(0)" class="dib link dotted-link" style="margin:0 0 9px;">Купить в 1 клик</a>
+                                <br><a href="javascript:void(0)" class="dib link dotted-link">В кредит за <span
+                                    class="bold">78 180 &#8399;</span> в месяц</a>
+                            </div>
+                        </div>
+                        <div class="catalog-item__addinfo">
+                            <span class="addinfo-text"><span>Беслатная доставка возможна </span><span class="italic">на завтра, 11.02.2014</span></span>
+                            <span class="addinfo-text">
+                                <span>Экспресс-доставка </span><span class="italic">сегодня, через 4 часа за 350 &#8399;</span>
+                                <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="catalog-item flt-l clearfix">
+                        <div class="flt-l catalog-item__left">
+                            <img class="catalog__photo" src="images/1.png" alt=""/>
+
+                            <div class="bottom-center">
+                                <div class="starbar">
+                                    <div class="starbar_w"></div>
+                                </div><br>
+                                <a href="javascript:void(0)" class="dib link underline-link blue-link">23 отзыва</a>
+                            </div>
+                        </div>
+                        <div class="flt-l catalog-item__right" style="text-align: left;">
+                            <a href="javascript:void(0)" class="catalog-item__name link underline-link blue-link">Apple iPhone 5S
+                                16GB Space Gray</a>
+
+                            <div class="bottom">
+                                <div class="product__item__art">Артикул: 674739 (с2)</div>
+                                <span class="presence presence__yes">Есть в наличии</span>
+                                <div class="new-price">29 999 &#8399;</div>
+                                <a class="button-buy">Купить</a>
+                                <br><a href="javascript:void(0)" class="dib link dotted-link" style="margin:0 0 9px;">Купить в 1 клик</a>
+                                <br><a href="javascript:void(0)" class="dib link dotted-link">В кредит за <span
+                                    class="bold">78 180 &#8399;</span> в месяц</a>
+                            </div>
+                        </div>
+                        <div class="catalog-item__addinfo">
+                            <span class="addinfo-text"><span>Беслатная доставка возможна </span><span class="italic">на завтра, 11.02.2014</span></span>
+                            <span class="addinfo-text">
+                                <span>Экспресс-доставка </span><span class="italic">сегодня, через 4 часа за 350 &#8399;</span>
+                                <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <div class="dash__right">
                 <div class="title-middle">Поиск по параметрам</div>
+                <div class="search-param expanded">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i>
+                        <span class="dotted-link">Цена</span>
+                    </a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param expanded">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i>
+                        <span class="dotted-link">Популярные производители</span>
+                    </a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i>
+                        <span class="dotted-link">Платформа (ОС)</span>
+                        <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                    </a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i><span class="dotted-link">Диагональ экрана</span></a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i><span class="dotted-link">Сенсорный экран</span></a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i><span class="dotted-link">Количество SIM-карт</span></a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i><span class="dotted-link">Объем встроенной памяти</span></a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i><span class="dotted-link">Слот для карты памяти</span></a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i>
+                        <span class="dotted-link">Процессор</span>
+                        <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                    </a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i><span class="dotted-link">Емкость аккумулятора</span>
+                        <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                    </a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i><span class="dotted-link">Вес</span>
+                        <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                    </a>
+                    <div class="search-param__container"></div>
+                </div>
+                <div class="search-param collapsed">
+                    <a href="javascript:void(0)" class="param-name link">
+                        <i class="sp param"></i><span class="dotted-link">Вес</span>
+                        <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                    </a>
+                    <div class="search-param__container"></div>
+                </div>
+                <a href="javascript:void(0)" class="show-all-params link dotted-link blue-link">показать все параметры поиска</a>
             </div>
         </div>
     </div>

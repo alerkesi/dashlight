@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f77fe00-57ba-4354-bedf-d0c17ec9b3e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/hint.css" />
-      <change type="MOVED" beforePath="C:\Users\achernikov\WebstormProjects\dashlight\dash_light.psd" afterPath="$PROJECT_DIR$/source/dash_light.psd" />
-      <change type="MOVED" beforePath="C:\Users\achernikov\WebstormProjects\dashlight\list_light.psd" afterPath="$PROJECT_DIR$/source/list_light.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dash.html" afterPath="$PROJECT_DIR$/dash.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/s.css" afterPath="$PROJECT_DIR$/css/s.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -55,7 +50,7 @@
       <file leaf-file-name="dash.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="20" selection-start="11392" selection-end="11392" vertical-scroll-proportion="0.9399684" vertical-offset="2567" max-vertical-offset="4029">
+            <state line="174" column="24" selection-start="10622" selection-end="10622" vertical-scroll-proportion="1.1611375" vertical-offset="2223" max-vertical-offset="4165">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,7 +67,7 @@
       <file leaf-file-name="s.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/s.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="417" column="1" selection-start="7139" selection-end="7139" vertical-scroll-proportion="0.0" vertical-offset="6464" max-vertical-offset="7191">
+            <state line="437" column="1" selection-start="7542" selection-end="7542" vertical-scroll-proportion="0.0" vertical-offset="7042" max-vertical-offset="7701">
               <folding />
             </state>
           </provider>
@@ -314,7 +309,11 @@
       <created>1397750884929</created>
       <updated>1397750884929</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 3&#10;">
+      <created>1397848440790</created>
+      <updated>1397848440790</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -350,7 +349,8 @@
     <MESSAGE value="Commit 1&#10;&#10;" />
     <MESSAGE value="Commit 1&#10;" />
     <MESSAGE value="Commit 2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2&#10;" />
+    <MESSAGE value="Commit 3&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 3&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -495,14 +495,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/s.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="417" column="1" selection-start="7139" selection-end="7139" vertical-scroll-proportion="0.0" vertical-offset="6464" max-vertical-offset="7191">
+        <state line="437" column="1" selection-start="7542" selection-end="7542" vertical-scroll-proportion="0.0" vertical-offset="7042" max-vertical-offset="7701">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="20" selection-start="11392" selection-end="11392" vertical-scroll-proportion="0.9399684" vertical-offset="2567" max-vertical-offset="4029">
+        <state line="174" column="24" selection-start="10622" selection-end="10622" vertical-scroll-proportion="1.1611375" vertical-offset="2223" max-vertical-offset="4165">
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

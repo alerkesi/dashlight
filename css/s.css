@@ -75,6 +75,9 @@ a {
 .underline-link {
     border-bottom: 1px solid;
 }
+.underline-link, .dotted-link {
+    display: inline-block;
+}
 
 .underline-link:hover {
     border-bottom: 1px solid transparent;
@@ -105,10 +108,8 @@ a {
 }
 
 .navy-arrow {
-    background-image: url("../images/sprite.png");
     background-position: 0 -100px;
     display: inline-block;
-    content: '';
     width: 18px;
     height: 7px;
 }
@@ -250,7 +251,7 @@ a {
 
 .catalog-item {
     width: 340px;/*50%*/
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-bottom: 25px;
 }
 
@@ -276,6 +277,7 @@ a {
 .catalog-item__name {
     font-size: 16px;
     line-height: 20px;
+    display: inline;
 }
 
 .catalog__photo {
@@ -407,12 +409,39 @@ a {
     font-size: 16px;
     margin-bottom: 20px;
 }
-.search-param {
-
+.search-param:not(:last-child) {
+    margin-bottom: 10px;
+}
+/*.search-param {
+    font-size: 0;*//*for inline-block space*//*
+}*/
+.search-param__container, .param-name {
+    font-size: 13px;
 }
 .expanded.search-param__container {
     display: block;
 }
+.expanded .sp.param {
+    background-position: -5px -110px;
+    width: 8px;
+    height: 5px;
+}
+.collapsed .sp.param {
+    background-position: 0 -110px;
+    width: 5px;
+    height: 8px;
+    margin-left: 3px;
+}
+
 .collapsed.search-param__container {
     display: none;
+}
+.param-name {
+    display: inline-block;
+}
+.param-name * {
+    vertical-align: middle;
+}
+.sp.param {
+    margin-right: 4px;
 }

@@ -6,7 +6,7 @@
     <meta content="" name="description"/>
     <title></title>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <!--<script src="js/j.js" type="text/javascript"></script>-->
+    <script src="js/j.js" type="text/javascript"></script>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext'
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/s.css" type="text/css">
@@ -152,7 +152,21 @@
                         <i class="sp param"></i>
                         <span class="dotted-link">Цена</span>
                     </a>
-                    <div class="search-param__container"></div>
+                    <div class="search-param__container">
+                        <div class="vam-line">
+                            <span>от</span>
+                            <input class="price-input" type="number" value="0">
+                            <span>до</span>
+                            <input class="price-input" type="number" value="12000">
+                            <span>&#8399;</span>
+                        </div>
+                        <div class="price-line">
+                            <div class="price-line__empty sp"></div>
+                            <div class="price-line__fill sp"></div>
+                            <a href="javascript:void(0)" class="price-toggle price-from sp"></a>
+                            <a href="javascript:void(0)" class="price-toggle price-to sp"></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="search-param expanded">
                     <a href="javascript:void(0)" class="param-name link">

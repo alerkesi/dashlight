@@ -1,13 +1,16 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
 em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
 caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output,
-ruby, section, summary, time, mark, audio, video {
+ruby, section, summary, time, mark, audio, video, input {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
+}
+.dash input {
+    outline: none;
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -51,7 +54,8 @@ a {
 .dash div,
 .dash ul,
 .dash button,
-.dash a {
+.dash a,
+.dash input {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -75,6 +79,7 @@ a {
 .underline-link {
     border-bottom: 1px solid;
 }
+
 .underline-link, .dotted-link {
     display: inline-block;
 }
@@ -86,12 +91,15 @@ a {
 .dotted-link {
     border-bottom: 1px dotted;
 }
+
 .bold {
     font-weight: bold;
 }
+
 .italic {
     font-style: italic;
 }
+
 .navy-selected {
     color: #999;
 }
@@ -172,9 +180,11 @@ a {
     margin-top: 15px;
     margin-bottom: 33px;
 }
+
 .sort-opts span:first-child {
     vertical-align: middle;
 }
+
 .sort-opt {
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -236,6 +246,7 @@ a {
 .display-opt {
     float: right;
 }
+
 .display-opt span, .display-opt a {
     display: inline-block;
     vertical-align: middle;
@@ -250,7 +261,7 @@ a {
 }
 
 .catalog-item {
-    width: 340px;/*50%*/
+    width: 340px; /*50%*/
     /*overflow: hidden;*/
     margin-bottom: 25px;
 }
@@ -260,8 +271,8 @@ a {
 }
 
 .catalog-item__left {
-    width: 140px;/*47%*/
-    height: 195px;/*height: 100%;*/
+    width: 140px; /*47%*/
+    height: 205px; /*height: 100%;*/
     margin-right: 20px;
     position: relative;
     text-align: center;
@@ -269,8 +280,8 @@ a {
 }
 
 .catalog-item__right {
-    width: 180px;/*53%*/
-    height: 195px;/*height: 100%;*/
+    width: 180px; /*53%*/
+    height: 205px; /*height: 100%;*/
     position: relative;
 }
 
@@ -358,9 +369,11 @@ a {
     background-color: #ffc301;
     margin-bottom: 10px;
 }
+
 .button:hover {
     /*background-color: #ffc301;*/
 }
+
 .button:active {
     /*background-color: #ffc301;*/
 }
@@ -370,6 +383,7 @@ a {
     bottom: 0;
     left: 0;
 }
+
 .bottom-center {
     position: absolute;
     bottom: 0;
@@ -378,6 +392,7 @@ a {
     -webkit-transform: translate(-50%, 0);
     -moz-transform: translate(-50%, 0);
 }
+
 .catalog-item__addinfo {
     height: 48px;
     -webkit-border-radius: 2px;
@@ -387,13 +402,16 @@ a {
     clear: both;
     padding: 3px 7px 10px;
 }
+
 .addinfo-text {
     color: #999;
     line-height: 19px;
 }
+
 .addinfo-text span {
     vertical-align: middle;
 }
+
 .qst {
     background-position: -130px -130px;
     cursor: pointer;
@@ -402,30 +420,40 @@ a {
     margin-left: 2px;
     vertical-align: middle;
 }
+
 .qst:hover {
     background-position: -130px -146px;
 }
+
 .title-middle {
     font-size: 16px;
     margin-bottom: 20px;
 }
+
 .search-param:not(:last-child) {
     margin-bottom: 10px;
 }
+
 /*.search-param {
     font-size: 0;*//*for inline-block space*//*
 }*/
+.search-param__container {
+    padding: 11px 0;
+}
 .search-param__container, .param-name {
     font-size: 13px;
 }
+
 .expanded.search-param__container {
     display: block;
 }
+
 .expanded .sp.param {
     background-position: -5px -110px;
     width: 8px;
     height: 5px;
 }
+
 .collapsed .sp.param {
     background-position: 0 -110px;
     width: 5px;
@@ -433,15 +461,85 @@ a {
     margin-left: 3px;
 }
 
-.collapsed.search-param__container {
+.collapsed .search-param__container {
     display: none;
 }
+
 .param-name {
     display: inline-block;
 }
+
 .param-name * {
     vertical-align: middle;
 }
+
 .sp.param {
     margin-right: 4px;
+}
+
+.price-input {
+    padding: 0 5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    width: 70px;
+    border: 1px solid #999999;
+    text-align: left;
+    height: 22px;
+}
+.price-input:focus {
+    border: 1px solid #efb700;
+}
+
+.price-input[type="number"]::-webkit-outer-spin-button,
+.price-input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.price-line {
+    height: 27px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.price-line__empty {
+    background-position: 0 -227px;
+    height: 7px;
+    width: 203px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.price-line__fill {
+    background-position: 0 -220px;
+    height: 7px;
+    width: 105px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.price-from, .price-to {
+    display: block;
+    background-position: 0 -234px;
+    height: 20px;
+    width: 11px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+.price-to {
+    left: 100px;
+}
+.price-from:hover, .price-to:hover {
+    background-position: -11px -234px;
+}
+
+.vam-line * {
+    vertical-align: middle;
 }

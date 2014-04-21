@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f77fe00-57ba-4354-bedf-d0c17ec9b3e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dash.html" afterPath="$PROJECT_DIR$/dash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/j.js" afterPath="$PROJECT_DIR$/js/j.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/s.css" afterPath="$PROJECT_DIR$/css/s.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dashlight.iws" />
@@ -58,7 +55,7 @@
       <file leaf-file-name="j.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/j.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="21" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.5839695" vertical-offset="272" max-vertical-offset="1411">
+            <state line="58" column="14" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.90839696" vertical-offset="272" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -325,13 +322,18 @@
       <created>1397955789701</created>
       <updated>1397955789701</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 5&#10;">
+      <created>1398041148909</created>
+      <updated>1398041148909</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1058" width="1696" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -342,7 +344,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -363,7 +364,8 @@
     <MESSAGE value="Commit 2&#10;" />
     <MESSAGE value="Commit 3&#10;" />
     <MESSAGE value="Commit 4&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 4&#10;" />
+    <MESSAGE value="Commit 5&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 5&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -623,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/j.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="21" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.5839695" vertical-offset="272" max-vertical-offset="1411">
+        <state line="58" column="14" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.90839696" vertical-offset="272" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>

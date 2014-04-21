@@ -26,7 +26,7 @@
                 <i class="sp navy-arrow"></i>
                 <a href="javascript:void(0)" class="link navy-tab navy-selected">Смартфоны</a>
             </div>
-            <div class="dash__left">
+            <div class="dash__left" style="opacity: 0">
                 <div class="title-big">Смартфоны</div>
                 <div class="sort-opts clearfix">
                     <span>Сортировать по :</span>
@@ -155,9 +155,9 @@
                     <div class="search-param__container">
                         <div class="vam-line">
                             <span>от</span>
-                            <input class="price-input from-input" type="number" value="0" max="24000" min="0">
+                            <input class="price-input from-input" value="0" max="24000" min="0">
                             <span>до</span>
-                            <input class="price-input to-input" type="number" value="12000" max="24000" min="0">
+                            <input class="price-input to-input" value="12000" max="24000" min="0">
                             <span>&#8399;</span>
                         </div>
                         <div class="price-line">
@@ -173,7 +173,42 @@
                         <i class="sp param"></i>
                         <span class="dotted-link">Популярные производители</span>
                     </a>
-                    <div class="search-param__container"></div>
+
+                    <div class="search-param__container clearfix">
+                        <label class="for-checkbox two-columns">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Apple</span>
+                        </label>
+                        <label class="for-checkbox two-columns">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>HTC</span>
+                        </label>
+                        <label class="for-checkbox two-columns">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Huawei</span>
+                        </label>
+                        <label class="for-checkbox two-columns">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Lenovo</span>
+                        </label>
+                        <label class="for-checkbox two-columns">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>LG</span>
+                        </label>
+                        <label class="for-checkbox two-columns">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Nokia</span>
+                        </label>
+                        <label class="for-checkbox two-columns">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Samsung</span>
+                        </label>
+                        <label class="for-checkbox two-columns">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Sony</span>
+                        </label>
+                        <a class="flt-r link blue-link dotted-link" href="javascript:void(0)">показать всех</a>
+                    </div>
                 </div>
                 <div class="search-param collapsed">
                     <a href="javascript:void(0)" class="param-name link">
@@ -189,11 +224,37 @@
                         <span class="dotted-link">Диагональ экрана</span></a>
                     <div class="search-param__container"></div>
                 </div>
-                <div class="search-param collapsed">
+                <div class="search-param expanded">
                     <a href="javascript:void(0)" class="param-name link">
                         <i class="sp param"></i>
                         <span class="dotted-link">Сенсорный экран</span></a>
-                    <div class="search-param__container"></div>
+                    <div class="search-param__container">
+                        <label class="for-checkbox">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>LTE</span>
+                            <i class="sp qst hint--top" data-hint="LTE епта!"></i>
+                        </label>
+                        <label class="for-checkbox">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Wi-Fi</span>
+                            <i class="sp qst hint--top" data-hint="LTE епта!"></i>
+                        </label>
+                        <label class="for-checkbox">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>GPS</span>
+                            <i class="sp qst hint--top" data-hint="LTE епта!"></i>
+                        </label>
+                        <label class="for-checkbox">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>ГЛОНАСС</span>
+                            <i class="sp qst hint--top" data-hint="ГЛОНАСС епта!"></i>
+                        </label>
+                        <label class="for-checkbox">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Bluetooth</span>
+                            <i class="sp qst hint--top" data-hint="LTE епта!"></i>
+                        </label>
+                    </div>
                 </div>
                 <div class="search-param collapsed">
                     <a href="javascript:void(0)" class="param-name link">
@@ -201,17 +262,17 @@
                         <span class="dotted-link">Количество SIM-карт</span></a>
                     <div class="search-param__container"></div>
                 </div>
-                <div class="search-param collapsed">
+                <div class="search-param expanded">
                     <a href="javascript:void(0)" class="param-name link">
                         <i class="sp param"></i>
                         <span class="dotted-link">Объем встроенной памяти</span></a>
-                    <div class="search-param__container"></div>
-                </div>
-                <div class="search-param collapsed">
-                    <a href="javascript:void(0)" class="param-name link">
-                        <i class="sp param"></i>
-                        <span class="dotted-link">Слот для карты памяти</span></a>
-                    <div class="search-param__container"></div>
+                    <div class="search-param__container">
+                        <label class="for-checkbox">
+                            <input type="checkbox" name="checkbox" hidden/>
+                            <i class="sp"></i><span>Слот для карты памяти</span>
+                            <i class="sp qst hint--top" data-hint="LTE епта!"></i>
+                        </label>
+                    </div>
                 </div>
                 <div class="search-param collapsed">
                     <a href="javascript:void(0)" class="param-name link">
@@ -226,14 +287,6 @@
                         <i class="sp param"></i>
                         <span class="dotted-link">Емкость аккумулятора</span>
                         <i class="sp qst vam hint--top" data-hint="!"></i>
-                    </a>
-                    <div class="search-param__container"></div>
-                </div>
-                <div class="search-param collapsed">
-                    <a href="javascript:void(0)" class="param-name link">
-                        <i class="sp param"></i>
-                        <span class="dotted-link">Вес</span>
-                        <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
                     </a>
                     <div class="search-param__container"></div>
                 </div>

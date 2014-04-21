@@ -295,6 +295,7 @@ a {
 
 .list-catalog .catalog-item__right {
     width: 520px;
+    height: auto;
 }
 
 .catalog-item__v {

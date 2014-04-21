@@ -38,6 +38,7 @@ $(document).ready(function () {
             numericValidate(e);
         });
     $priceLine.on("mousedown", ".price-toggle", function (e) {
+        e.preventDefault();
         $dragging = $(e.target);
     });
     $priceLine.on("mousemove", function (e) {

@@ -8,7 +8,8 @@ ruby, section, summary, time, mark, audio, video, input {
     font: inherit;
     vertical-align: baseline;
 }
-.dash input {
+
+.market input {
     outline: none;
 
 }
@@ -45,17 +46,17 @@ a {
     color: inherit;
 }
 
-.dash {
+.market {
     color: #333;
     font-size: 13px;
     font-family: "PT Sans", sans-serif;
 }
 
-.dash div,
-.dash ul,
-.dash button,
-.dash a,
-.dash input {
+.market div,
+.market ul,
+.market button,
+.market a,
+.market input {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -135,28 +136,28 @@ a {
     font-size: 24px;
 }
 
-.dash__wrapper, .header {
+.market__wrapper, .header {
     width: 960px;
 }
 
-.dash__navy {
+.market__navy {
     margin-bottom: 20px;
 }
 
-.dash__content {
+.market__content {
     width: 960px;
     padding: 4px 10px;
     margin: 0 auto;
 }
 
-.dash__left {
+.market__left {
     float: left;
     width: 80%;
     width: calc(100% - 220px);
     padding-right: 20px;
 }
 
-.dash__right {
+.market__right {
     float: left;
     width: 20%;
     width: calc(220px);
@@ -164,7 +165,7 @@ a {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     background-color: #efefef;
-    padding: 5px 8px;
+    padding: 5px 8px 20px;
 }
 
 .clearfix:after {
@@ -260,10 +261,18 @@ a {
     float: left;
 }
 
+.flt-r {
+    float: right;
+}
+
 .catalog-item {
     width: 340px; /*50%*/
     /*overflow: hidden;*/
     margin-bottom: 25px;
+}
+
+.list-catalog .catalog-item {
+    width: 100%;
 }
 
 .catalog-item:nth-child(2n) {
@@ -276,13 +285,25 @@ a {
     margin-right: 20px;
     position: relative;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 .catalog-item__right {
     width: 180px; /*53%*/
     height: 205px; /*height: 100%;*/
     position: relative;
+}
+
+.list-catalog .catalog-item__right {
+    width: 520px;
+    height: auto;
+}
+
+.catalog-item__v {
+    width: 45%;
+}
+
+.catalog-item__d {
+    width: 55%;
 }
 
 .catalog-item__name {
@@ -370,12 +391,15 @@ a {
     margin-bottom: 10px;
 }
 
-.button:hover {
-    /*background-color: #ffc301;*/
+.button-buy:hover {
+    background-color: #ffd10a;
 }
 
-.button:active {
-    /*background-color: #ffc301;*/
+.button-buy:active {
+    background-color: #ffd10a;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .bottom {
@@ -395,12 +419,13 @@ a {
 
 .catalog-item__addinfo {
     height: 48px;
+    float: left;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
     border: 1px solid #fff3cc;
-    clear: both;
     padding: 3px 7px 10px;
+    margin-top: 10px;
 }
 
 .addinfo-text {
@@ -430,7 +455,7 @@ a {
     margin-bottom: 20px;
 }
 
-.search-param:not(:last-child) {
+.search-param {
     margin-bottom: 10px;
 }
 
@@ -438,8 +463,9 @@ a {
     font-size: 0;*//*for inline-block space*//*
 }*/
 .search-param__container {
-    padding: 11px 0;
+    padding: 11px 0 6px;
 }
+
 .search-param__container, .param-name {
     font-size: 13px;
 }
@@ -483,11 +509,12 @@ a {
     -moz-border-radius: 2px;
     border-radius: 2px;
     display: inline-block;
-    width: 70px;
+    width: 77px;
     border: 1px solid #999999;
     text-align: left;
     height: 22px;
 }
+
 .price-input:focus {
     border: 1px solid #efb700;
 }
@@ -500,8 +527,7 @@ a {
 
 .price-line {
     height: 27px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 14px;
     position: relative;
 }
 
@@ -517,7 +543,7 @@ a {
 .price-line__fill {
     background-position: 0 -223px;
     height: 4px;
-    width: 96px;
+    width: 97px;
     position: absolute;
     top: 3px;
     left: 5px;
@@ -533,13 +559,81 @@ a {
     left: 0;
     cursor: pointer;
 }
+
 .price-to {
     left: 96px;
 }
+
 .price-from:hover, .price-to:hover {
     background-position: -11px -234px;
 }
 
 .vam-line * {
     vertical-align: middle;
+}
+
+.for-checkbox * {
+    line-height: normal;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.for-checkbox {
+    cursor: pointer;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.two-columns {
+    width: 47%;
+    display: inline-block !important;
+}
+
+input[type="checkbox"] + i {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] + i {
+    background-position: -84px -144px;
+}
+
+input[type="checkbox"]:checked + i {
+    background-position: -70px -144px;
+}
+
+input[type="checkbox"]:disabled + i {
+    background-position: -112px -144px;
+}
+
+input[type="checkbox"]:checked:disabled + i {
+    background-position: -98px -144px;
+}
+
+.show-all-params {
+    margin-top: 5px;
+}
+
+.desc-item {
+    margin-bottom: 2px;
+}
+.desc-item * {
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.desc-item__name {
+    font-style: italic;
+    color: #999;
+}
+
+.desc-item__cont {
+
 }

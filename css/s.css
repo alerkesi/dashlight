@@ -9,7 +9,7 @@ ruby, section, summary, time, mark, audio, video, input {
     vertical-align: baseline;
 }
 
-.dash input {
+.market input {
     outline: none;
 
 }
@@ -46,17 +46,17 @@ a {
     color: inherit;
 }
 
-.dash {
+.market {
     color: #333;
     font-size: 13px;
     font-family: "PT Sans", sans-serif;
 }
 
-.dash div,
-.dash ul,
-.dash button,
-.dash a,
-.dash input {
+.market div,
+.market ul,
+.market button,
+.market a,
+.market input {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -136,28 +136,28 @@ a {
     font-size: 24px;
 }
 
-.dash__wrapper, .header {
+.market__wrapper, .header {
     width: 960px;
 }
 
-.dash__navy {
+.market__navy {
     margin-bottom: 20px;
 }
 
-.dash__content {
+.market__content {
     width: 960px;
     padding: 4px 10px;
     margin: 0 auto;
 }
 
-.dash__left {
+.market__left {
     float: left;
     width: 80%;
     width: calc(100% - 220px);
     padding-right: 20px;
 }
 
-.dash__right {
+.market__right {
     float: left;
     width: 20%;
     width: calc(220px);
@@ -271,6 +271,10 @@ a {
     margin-bottom: 25px;
 }
 
+.list-catalog .catalog-item {
+    width: 100%;
+}
+
 .catalog-item:nth-child(2n) {
     margin-left: 20px;
 }
@@ -281,13 +285,24 @@ a {
     margin-right: 20px;
     position: relative;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 .catalog-item__right {
     width: 180px; /*53%*/
     height: 205px; /*height: 100%;*/
     position: relative;
+}
+
+.list-catalog .catalog-item__right {
+    width: 520px;
+}
+
+.catalog-item__v {
+    width: 45%;
+}
+
+.catalog-item__d {
+    width: 55%;
 }
 
 .catalog-item__name {
@@ -403,12 +418,13 @@ a {
 
 .catalog-item__addinfo {
     height: 48px;
+    float: left;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
     border: 1px solid #fff3cc;
-    clear: both;
     padding: 3px 7px 10px;
+    margin-top: 10px;
 }
 
 .addinfo-text {
@@ -602,4 +618,21 @@ input[type="checkbox"]:checked:disabled + i {
 
 .show-all-params {
     margin-top: 5px;
+}
+
+.desc-item {
+    margin-bottom: 2px;
+}
+.desc-item * {
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.desc-item__name {
+    font-style: italic;
+    color: #999;
+}
+
+.desc-item__cont {
+
 }

@@ -13,20 +13,20 @@
     <link rel="stylesheet" href="css/hint.css" type="text/css">
 </head>
 <body>
-<div class="dash">
-<div class="dash__wrapper">
+<div class="market">
+<div class="market__wrapper">
 <div class="header-bg">
     <div class="header"></div>
 </div>
-<div class="dash__content clearfix">
-<div class="dash__navy">
+<div class="market__content clearfix">
+<div class="market__navy">
     <a href="javascript:void(0)" class="link blue-link navy-tab"><i class="sp navy-home"></i></a>
     <i class="sp navy-arrow"></i>
     <a href="javascript:void(0)" class="link blue-link navy-tab underline-link">Планшеты и смартфоны</a>
     <i class="sp navy-arrow"></i>
     <a href="javascript:void(0)" class="link navy-tab navy-selected">Смартфоны</a>
 </div>
-<div class="dash__left" style="opacity: 0">
+<div class="market__left">
     <div class="title-big">Смартфоны</div>
     <div class="sort-opts clearfix">
         <span>Сортировать по :</span>
@@ -39,11 +39,11 @@
 
         <div class="display-opt">
             <span style="margin-right: 5px;">Отображать:</span>
-            <a href="javascript:void(0)" class="link"><i class="sp selected dash-display"></i></a>
-            <a href="javascript:void(0)" class="link"><i class="sp list-display"></i></a>
+            <a href="javascript:void(0)" class="link"><i class="sp selected dash-display js-toggleView"></i></a>
+            <a href="javascript:void(0)" class="link"><i class="sp list-display js-toggleView"></i></a>
         </div>
     </div>
-    <ul class="catalog list-none clearfix">
+    <ul class="catalog dash-catalog list-none clearfix">
         <li class="catalog-item flt-l clearfix">
             <div class="flt-l catalog-item__left">
                 <img class="catalog__photo" src="images/1.png" alt=""/>
@@ -156,8 +156,85 @@
             </div>
         </li>
     </ul>
+    <ul class="catalog list-catalog list-none clearfix" style="display: none">
+        <li class="catalog-item flt-l clearfix">
+            <div class="flt-l catalog-item__left">
+                <img class="catalog__photo" src="images/1.png" alt=""/>
+            </div>
+            <div class="flt-l catalog-item__right clearfix" style="text-align: left;">
+                <div class="flt-l" style="width: 100%; margin-bottom: 10px;">
+                    <a href="javascript:void(0)" class="catalog-item__name link underline-link blue-link">Apple iPhone
+                        5S
+                        16GB Space Gray</a>
+                </div>
+                <div class="catalog-item__v flt-l">
+                    <div class="product__item__art">Артикул: 674739 (с2)</div>
+                    <span class="presence presence__yes">Есть в наличии</span>
+                    <br>
+
+                    <div class="vam-line">
+                        <div class="starbar">
+                            <div class="starbar_w"></div>
+                        </div>
+                        <a href="javascript:void(0)" class="dib link underline-link blue-link">23 отзыва</a>
+                    </div>
+                    <div class="new-price">29 999 &#8399;</div>
+                    <a class="button-buy">Купить</a>
+                    <br><a href="javascript:void(0)" class="dib link dotted-link" style="margin:0 0 9px;">Купить в 1
+                    клик</a>
+                    <br><a href="javascript:void(0)" class="dib link dotted-link">В кредит за <span
+                        class="bold">953 &#8399;</span> в месяц</a>
+                </div>
+                <div class="catalog-item__d flt-l">
+                    <div class="desc-item">
+                        <span class="desc-item__name">Производитель: </span>
+                        <span class="desc-item__cont blue-link underline-link">Apple</span>
+                    </div>
+                    <div class="desc-item">
+                        <span class="desc-item__name">Модель: </span>
+                        <span class="desc-item__cont">1530</span><i class="sp qst vam hint--top"
+                                                                    data-hint="Это модель"></i>
+                    </div>
+                    <div class="desc-item">
+                        <span class="desc-item__name">Объем встроенной памяти: </span>
+                        <span class="desc-item__cont">64 Гб</span>
+                    </div>
+                    <div class="desc-item">
+                        <span class="desc-item__name">Диагональ: </span>
+                        <span class="desc-item__cont">4 дюйма</span>
+                    </div>
+                    <div class="desc-item">
+                        <span class="desc-item__name">Фотокамера: </span>
+                        <span class="desc-item__cont">8 млн. пикс., светодиодная вспышка</span>
+                    </div>
+                    <div class="desc-item">
+                        <span class="desc-item__name">Интерфейсы: </span>
+                        <span class="desc-item__cont">Wi-Fi, Bluetooth 4.0, USB</span>
+                    </div>
+                    <div class="desc-item">
+                        <span class="desc-item__name">Навигация: </span>
+                        <span class="desc-item__cont">GPS/ГЛОНАСС</span>
+                    </div>
+                    <div class="desc-item">
+                        <span class="desc-item__name">Доступ в интернет: </span>
+                        <span class="desc-item__cont">WAP, GPRS, EDGE, HSDPA, HSUPA, HSPA+, DC HSDPA, email POP/SMTP, HTML</span>
+                    </div>
+                    <a href="javascript:void(0)" class="show-all-params link underline-link blue-link">показать все
+                        параметры поиска</a>
+                </div>
+                <div class="catalog-item__addinfo">
+                    <span class="addinfo-text"><span>Беслатная доставка возможна </span><span class="italic">на завтра, 11.02.2014</span></span>
+                            <span class="addinfo-text">
+                                <span>Экспресс-доставка </span><span
+                                    class="italic">сегодня, через 4 часа за 350 &#8399;</span>
+                                <i class="sp qst vam hint--top" data-hint="Сегодня!!!!!!!!!!!!!"></i>
+                            </span>
+                </div>
+            </div>
+        </li>
+    </ul>
 </div>
-<div class="dash__right">
+<div class="market__right">
     <div class="title-middle">Поиск по параметрам</div>
     <div class="search-param expanded">
         <a href="javascript:void(0)" class="param-name link">

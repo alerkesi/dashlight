@@ -95,5 +95,11 @@ $(document).ready(function () {
         $dragging = null;
 
     });
-
+    var tV = $('.js-toggleView');
+    tV.click(function () {
+        tV.removeClass('selected');
+        $(this).addClass('selected');
+        $('.dash-catalog').toggle();
+        $('.list-catalog').toggle();
+    });
 });

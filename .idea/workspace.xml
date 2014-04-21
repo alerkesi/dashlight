@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f77fe00-57ba-4354-bedf-d0c17ec9b3e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/j.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dash.html" afterPath="$PROJECT_DIR$/dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/j.js" afterPath="$PROJECT_DIR$/js/j.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/s.css" afterPath="$PROJECT_DIR$/css/s.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,7 +31,7 @@
       <file leaf-file-name="basket_1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../nekurt_recycle/basket_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="63" selection-start="677" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="11713">
+            <state line="24" column="56" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-10.384615" vertical-offset="138" max-vertical-offset="11713">
               <folding />
             </state>
           </provider>
@@ -40,7 +40,7 @@
       <file leaf-file-name="basket.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../nekurt_recycle/css/basket.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="655" column="1" selection-start="12281" selection-end="12372" vertical-scroll-proportion="0.0" vertical-offset="10523" max-vertical-offset="29835">
+            <state line="655" column="1" selection-start="12281" selection-end="12372" vertical-scroll-proportion="0.0" vertical-offset="11135" max-vertical-offset="29835">
               <folding />
             </state>
           </provider>
@@ -49,16 +49,8 @@
       <file leaf-file-name="dash.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="76" selection-start="10301" selection-end="10301" vertical-scroll-proportion="-14.384615" vertical-offset="2448" max-vertical-offset="4403">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="159" column="62" selection-start="9871" selection-end="9871" vertical-scroll-proportion="-5.8846154" vertical-offset="2550" max-vertical-offset="4403">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +58,7 @@
       <file leaf-file-name="j.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/j.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="40" selection-start="430" selection-end="430" vertical-scroll-proportion="0.3756906" vertical-offset="0" max-vertical-offset="724">
+            <state line="43" column="21" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.5839695" vertical-offset="272" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -75,7 +67,7 @@
       <file leaf-file-name="s.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/s.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="274" column="14" selection-start="4338" selection-end="4338" vertical-scroll-proportion="0.0" vertical-offset="4366" max-vertical-offset="9350">
+            <state line="519" column="13" selection-start="8573" selection-end="8573" vertical-scroll-proportion="0.0" vertical-offset="8823" max-vertical-offset="9350">
               <folding />
             </state>
           </provider>
@@ -113,8 +105,8 @@
         <option value="$PROJECT_DIR$/../nekurt_recycle/basket_1.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../nekurt_recycle/css/basket.css" />
-        <option value="$PROJECT_DIR$/css/s.css" />
         <option value="$PROJECT_DIR$/dash.html" />
+        <option value="$PROJECT_DIR$/css/s.css" />
         <option value="$PROJECT_DIR$/js/j.js" />
       </list>
     </option>
@@ -151,7 +143,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,6 +219,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,18 +321,22 @@
       <created>1397848440790</created>
       <updated>1397848440790</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit 4&#10;">
+      <created>1397955789701</created>
+      <updated>1397955789701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1058" width="1696" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.104761906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07976191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -366,12 +362,107 @@
     <MESSAGE value="Commit 1&#10;" />
     <MESSAGE value="Commit 2&#10;" />
     <MESSAGE value="Commit 3&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 3&#10;" />
+    <MESSAGE value="Commit 4&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 4&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../nekurt_recycle/basket_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="63" selection-start="677" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="11713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nekurt_recycle/css/basket.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="655" column="1" selection-start="12281" selection-end="12372" vertical-scroll-proportion="0.0" vertical-offset="11135" max-vertical-offset="29835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="62" selection-start="9871" selection-end="9871" vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="4403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/j.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="73" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="519" column="13" selection-start="8573" selection-end="8573" vertical-scroll-proportion="0.0" vertical-offset="8823" max-vertical-offset="9350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nekurt_recycle/basket_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="63" selection-start="677" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="11713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nekurt_recycle/css/basket.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="655" column="1" selection-start="12281" selection-end="12372" vertical-scroll-proportion="0.0" vertical-offset="10523" max-vertical-offset="29835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="76" selection-start="10301" selection-end="10301" vertical-scroll-proportion="0.0" vertical-offset="2822" max-vertical-offset="4403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/j.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="40" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="274" column="14" selection-start="4338" selection-end="4338" vertical-scroll-proportion="0.0" vertical-offset="4658" max-vertical-offset="9350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../nekurt_recycle/basket_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="63" selection-start="677" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="11713">
@@ -389,15 +480,7 @@
     <entry file="file://$PROJECT_DIR$/dash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="24" selection-start="10622" selection-end="10622" vertical-scroll-proportion="0.0" vertical-offset="2223" max-vertical-offset="4165">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,15 +520,7 @@
     <entry file="file://$PROJECT_DIR$/dash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="37" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="731">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -485,15 +560,7 @@
     <entry file="file://$PROJECT_DIR$/dash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="8" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -521,9 +588,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nekurt_recycle/basket_1.html">
+    <entry file="file://$PROJECT_DIR$/../nekurt_recycle/css/basket.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="63" selection-start="677" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="11713">
+        <state line="655" column="1" selection-start="12281" selection-end="12372" vertical-scroll-proportion="0.0" vertical-offset="10523" max-vertical-offset="29835">
           <folding />
         </state>
       </provider>
@@ -533,38 +600,30 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nekurt_recycle/css/basket.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="655" column="1" selection-start="12281" selection-end="12372" vertical-scroll-proportion="0.0" vertical-offset="10523" max-vertical-offset="29835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/s.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="14" selection-start="4338" selection-end="4338" vertical-scroll-proportion="0.0" vertical-offset="4366" max-vertical-offset="9350">
+        <state line="519" column="13" selection-start="8573" selection-end="8573" vertical-scroll-proportion="0.0" vertical-offset="8496" max-vertical-offset="9350">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="76" selection-start="10301" selection-end="10301" vertical-scroll-proportion="-14.384615" vertical-offset="2448" max-vertical-offset="4403">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="159" column="62" selection-start="9871" selection-end="9871" vertical-scroll-proportion="-5.8846154" vertical-offset="2550" max-vertical-offset="4403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nekurt_recycle/basket_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="56" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-10.384615" vertical-offset="138" max-vertical-offset="11713">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/j.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="40" selection-start="430" selection-end="430" vertical-scroll-proportion="0.3756906" vertical-offset="0" max-vertical-offset="724">
+        <state line="43" column="21" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.5839695" vertical-offset="272" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>

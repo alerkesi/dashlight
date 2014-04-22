@@ -47,7 +47,7 @@ $(document).ready(function () {
       nV = e.pageX - 5 - $priceLine.offset().left;
       rightLimit = parseInt($priceTo.css('left'));
       leftLimit = parseInt($priceFrom.css('left'));
-      if (($dragging.hasClass('price-from')) && (nV >= 0) && (nV < (rightLimit - $dragging.width()))) {
+      if (($dragging.hasClass('price-from')) && (nV >= 0) && (nV < rightLimit)) {
         $dragging.css('left', nV);
         $pFI.val(Math.round(nV / ($priceLine.width() - $dragging.width() - 1) * 24000));
         $priceLineFill.css({
@@ -55,7 +55,7 @@ $(document).ready(function () {
           width: rightLimit - nV
         });
       }
-      if (($dragging.hasClass('price-to')) && (nV <= ($priceLine.width() - $dragging.width() - 1)) && (nV > (leftLimit + $dragging.width()))) {
+      if (($dragging.hasClass('price-to')) && (nV <= ($priceLine.width() - $dragging.width() - 1)) && (nV > leftLimit )) {
         $dragging.css('left', nV);
         $pTI.val(Math.round(nV / ($priceLine.width() - $dragging.width() - 1) * 24000));
         $priceLineFill.css({

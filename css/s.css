@@ -693,6 +693,9 @@ input[type="checkbox"]:checked:disabled + i {
 
 .button-gray {
     height: 28px;
+    width: 92px;
+    display: inline-block;
+    line-height: 26px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;

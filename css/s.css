@@ -73,7 +73,7 @@ a {
     color: inherit;
 }
 
-.blue-link {
+.blue-link, .blue-hover:hover {
     color: #09c;
 }
 
@@ -91,6 +91,9 @@ a {
 
 .dotted-link {
     border-bottom: 1px dotted;
+}
+.dotted-link:hover {
+    border-bottom: 1px dotted transparent;
 }
 
 .bold {

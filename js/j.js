@@ -73,10 +73,12 @@ $(document).ready(function () {
                 });
             }
             $showModels.show();
+            $showModels.offset({top: $priceLine.offset().top});
         }
     });
     $checkbox.on('click', function (e) {
         $showModels.show();
+        $showModels.offset({top: $(this).offset().top});
     });
     var moveFrom = function (elem, nV) {
         var newPos = nV / 24000 * ($priceLine.width() - elem.width() - 1);
@@ -87,6 +89,7 @@ $(document).ready(function () {
             width: rightLimit - newPos
         });
         $showModels.show();
+        $showModels.offset({top: $priceLine.offset().top});
     };
     var moveTo = function (elem, nV) {
         var newPos = nV / 24000 * ($priceLine.width() - elem.width() - 1);
@@ -96,6 +99,7 @@ $(document).ready(function () {
             width: newPos - leftLimit + 1
         });
         $showModels.show();
+        $showModels.offset({top: $priceLine.offset().top});
     };
     var numericValidate = function (e) {
         if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||

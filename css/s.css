@@ -137,7 +137,7 @@ a {
 }
 
 .market__wrapper, .header {
-    min-width: 960px;
+    min-width: 940px;
 }
 
 .market__navy {
@@ -159,6 +159,7 @@ a {
 
 .market__right {
     float: left;
+    position: relative;
     width: 20%;
     width: calc(220px);
     border-radius: 4px;
@@ -337,6 +338,12 @@ a {
     background-position: 0 -180px;
     background-image: url("../images/sprite.png");
 }
+.starbar-otzyv .starbar {
+    margin-bottom: 3px;
+}
+.starbar-otzyv {
+    margin-bottom: 12px;
+}
 
 .product__item__art {
     font-size: 13px;
@@ -424,13 +431,13 @@ a {
 
 .catalog-item__addinfo {
     float: left;
+    width: 100%;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
     border: 1px solid #fff3cc;
     padding: 3px 7px 10px;
     margin-top: 10px;
-    cursor: pointer;
 }
 
 .addinfo-text {
@@ -470,13 +477,6 @@ a {
 
 .search-param {
     margin-bottom: 10px;
-}
-
-.search-param {
-    font-size: 0;/*for inline-block space*/
-}
-.search-param * {
-    font-size: 13px;
 }
 
 .search-param__container {
@@ -604,9 +604,9 @@ input[type="checkbox"] {
     display: block;
 }
 
-.two-columns {
-    width: 49%;
-    display: inline-block !important;
+.search-parameters.two-columns {
+    width: 50%;
+    display: inline-block;
 }
 
 input[type="checkbox"] + i {

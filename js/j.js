@@ -9,7 +9,9 @@ $(document).ready(function () {
     var $showModels = $('.js-show-models');
     var $priceFrom = $('.price-from');
     var $priceTo = $('.price-to');
+    var $paramCont = $('.search-param__container');
     var $priceLineFill = $('.price-line__fill');
+    var $checkbox = $('.for-checkbox');
     var $pFI = $('.from-input');
     var $pTI = $('.to-input');
     var $dragging = null;
@@ -38,15 +40,19 @@ $(document).ready(function () {
         .on('keydown', function (e) {
             numericValidate(e);
         });
-    $priceLine.on("mousedown", ".price-toggle", function (e) {
+    $priceLine.on('mousedown', '.price-toggle', function (e) {
         e.preventDefault();
+        e.stopPropagation();
         $dragging = $(e.target);
     });
-    $(document).on("mouseup", function (e) {
-        $dragging = null;
-
+    $(document).on('mouseup', function (e) {
+        if ($dragging){
+            $dragging = null;
+            return;
+        }
+        $showModels.hide();
     });
-    $(document).on("mousemove", function (e) {
+    $(document).on('mousemove', function (e) {
         if ($dragging) {
             nV = e.pageX - 5 - $priceLine.offset().left;
             rightLimit = parseInt($priceTo.css('left'));
@@ -66,9 +72,11 @@ $(document).ready(function () {
                     width: nV - leftLimit + 1
                 });
             }
-            $showModels.show(0).delay(5000).hide(0);
+            $showModels.show();
         }
-
+    });
+    $checkbox.on('click', function (e) {
+        $showModels.show();
     });
     var moveFrom = function (elem, nV) {
         var newPos = nV / 24000 * ($priceLine.width() - elem.width() - 1);
@@ -78,7 +86,7 @@ $(document).ready(function () {
             left: newPos + 5,
             width: rightLimit - newPos
         });
-        $showModels.show(0).delay(5000).hide(0);
+        $showModels.show();
     };
     var moveTo = function (elem, nV) {
         var newPos = nV / 24000 * ($priceLine.width() - elem.width() - 1);
@@ -87,7 +95,7 @@ $(document).ready(function () {
         $priceLineFill.css({
             width: newPos - leftLimit + 1
         });
-        $showModels.show(0).delay(5000).hide(0);
+        $showModels.show();
     };
     var numericValidate = function (e) {
         if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||

@@ -95,6 +95,9 @@ a {
 .dotted-link:hover {
     border-bottom: 1px dotted transparent;
 }
+.blue-hover.dotted-link:hover {
+    border-bottom: 1px dotted;
+}
 
 .bold {
     font-weight: bold;
